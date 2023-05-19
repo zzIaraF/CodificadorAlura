@@ -1,0 +1,92 @@
+*{
+    background-color: #F3F5FC;
+    margin: 0;
+    padding: 0;
+}
+
+#logo{
+   margin-bottom: 20px;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+#logoAlura{
+    margin: 20px 0 0 20px;
+    display: flex;
+}
+
+#ladoEsquerdo{
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    align-items: center;
+    border: 1px solid;
+
+    
+
+}
+
+#texto{
+    border: none;
+    width: 600px;
+}
+
+textarea::placeholder{
+    font-size: 20px;
+    color: #0A3871;
+}
+
+#sibTexto{
+    display: flex;
+    color: #495057;
+    opacity: 0.8;
+    font-size: 15px;
+}
+
+#buttons{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+button{
+    width: 150px;
+    height: 40px;
+    border-radius: 14px;
+    border: 1px solid #0A3871;
+    background-color: #D8DFE8;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+
+#buttonCrip{
+    background-color: #0A3871;
+    color: white;
+    margin-right: 40px;
+}
+
+#buttonDescrip{
+    color: #0A3871;
+}
+
+#ladoDireito{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    border: 1px solid;
+ 
+}
+
+
